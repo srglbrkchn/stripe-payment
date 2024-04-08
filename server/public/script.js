@@ -22,8 +22,7 @@ button.addEventListener("click", () => {
       });
     })
     .then(({ url }) => {
-      console.log(url);
-      // window.location = url;
+      window.location = url;
     })
     .catch((e) => {
       console.error(e.error);
